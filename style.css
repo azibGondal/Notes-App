@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sect1 {
+    width: 65vw;
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sect1 button {
+    align-self: flex-end;
+    margin-right: 8.5rem;
+    margin-top: 1rem;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius : 5px;
+    padding: 0.3rem 1rem;
+}
+.sect1 h1 {
+    margin: 2rem 0rem;
+}
+
+.sect1 textarea {
+    resize: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 3px solid rgb(0, 195, 255);
+}
+
+.sect2 {
+    width: 35vw;
+    flex-grow: 1;
+    border-left: 5px solid rgb(0, 0, 0);
+    height: 100vh;
+    overflow: auto;
+
+}
+
+.sect2 .notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sect2 .notes .note{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    max-height: 200px;
+    width: 80%;
+    overflow: auto;
+
+}
+
+#sect2-heading {
+    padding: 0rem 2rem;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sect2-heading button {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#extra {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: coral ;
+}
+
+.none {
+    display: none;
+}

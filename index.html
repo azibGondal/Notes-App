@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sect1">
+        <h1>welcome to my notes app</h1>
+        <textarea cols="50" rows="23" id="textArea"></textarea>
+        <button data-submit>submit</button>
+      </div>
+
+      <div class="sect2">
+        <div id="sect2-heading">
+          <h1 style="text-align: center; margin: 2rem 0rem">Your notes</h1>
+          <button data-erase>Reset notes</button>
+        </div>
+        <div class="notes" data-notes></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
